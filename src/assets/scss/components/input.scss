@@ -1,0 +1,9 @@
+.mat-mdc-form-field-infix {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    min-height: 0 !important;
+
+    .mat-mdc-input-element {
+        height: 100% !important;
+    }
+}

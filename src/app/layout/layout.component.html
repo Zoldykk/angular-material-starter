@@ -1,0 +1,12 @@
+<div class="layout-container">
+  <div class="sidebar">
+    <app-sidebar [sidebarState]="sidebarState"></app-sidebar>
+  </div>
+  <div class="content"
+       [class.sidebar-collpased]="!sidebarState">
+    <app-header [class.sidebar-collpased]="!sidebarState"></app-header>
+    <div class="inner-content">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>

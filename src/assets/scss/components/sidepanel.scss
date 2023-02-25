@@ -1,0 +1,12 @@
+.custom-modalbox {
+    mat-dialog-container {
+        position: absolute !important;
+        right: 0 !important;
+        left: unset !important;
+        width: 35vw !important;
+    }
+
+    mat-dialog-content {
+        height: 100% !important;
+    }
+}

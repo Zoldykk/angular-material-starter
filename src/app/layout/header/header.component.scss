@@ -1,0 +1,14 @@
+.header {
+    background-color: white;
+    height: 60px;
+    width: calc(100% - 270px);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    display: flex;
+    align-items: center;
+    padding: 20px 10px;
+    z-index: 900;
+    position: fixed;
+    top: 0;
+    right: 0;
+
+}

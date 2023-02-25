@@ -1,0 +1,23 @@
+.mdc-snackbar__surface {
+    padding: 20px;
+}
+
+.custom-snackbar-primary .mdc-snackbar__surface {
+    background-color: #4f46e5 !important;
+}
+
+.custom-snackbar-accent .mdc-snackbar__surface {
+    background-color: #1e293b !important;
+}
+
+.custom-snackbar-warn .mdc-snackbar__surface {
+    background-color: #f59e0b !important;
+}
+
+.custom-snackbar-danger .mdc-snackbar__surface {
+    background-color: #ef4444 !important;
+}
+
+.custom-snackbar-success .mdc-snackbar__surface {
+    background-color: #22c55e !important;
+}

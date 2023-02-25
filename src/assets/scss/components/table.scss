@@ -1,0 +1,15 @@
+.mat-mdc-table {
+    box-shadow: none !important;
+
+    thead tr {
+        th {
+            font-size: 15px;
+        }
+    }
+
+    tbody {
+        tr td {
+            padding: 24px 20px !important;
+        }
+    }
+}
